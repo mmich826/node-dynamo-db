@@ -6,7 +6,9 @@ https://github.com/keithweaver/MERN-boilerplate/tree/master-w-dynamodb  - Github
 
 
 
-
+Start DynamoDB:
+cd /Users/michaelmichalak/repos/misc/DynamoDBLocal_lib
+java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
 
 
 Useful dynamodb CLI cmds:
