@@ -1,0 +1,16 @@
+[
+    { "id": 21,
+        "type" : "Automatic",
+        "name" : "Toyota Yaris",
+        "manufacturer" : "Toyota",
+        "fuel_type" : "Petrol",
+        "hp" : 275
+    },
+    { "id": 22,
+        "type" : "Manual",
+        "name" : "Volkswagen Golf",
+        "manufacturer" : "Volkswagen",
+        "fuel_type" : "Petrol",
+        "hp" : 325
+    }
+]
