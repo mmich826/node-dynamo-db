@@ -18,3 +18,12 @@ Useful dynamodb CLI cmds:
  aws dynamodb delete-table --table-name Cars --profile XXXXX --region us-east-1
  aws dynamodb delete-table --table-name Cars --profile carsDb --region us-east-1
  aws dynamodb delete-table --table-name Cars --profile carsDb --region us-east-1 --endpoint-url http://localhost:8000
+
+
+Urls hitting service:
+http://localhost:3000/cars  GET
+http://localhost:3000/cars/car  POST
+    x-www-form-urlencoded
+        name:Honda Cvic
+        manufacturer:Honda
+        type:automatic
